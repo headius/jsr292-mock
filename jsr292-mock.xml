@@ -1,0 +1,3918 @@
+<jsr292-mock>
+<class access="public super abstract " name="java/lang/ClassValue" signature="&lt;T:Ljava/lang/Object;&gt;Ljava/lang/Object;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ClassValue.java">
+</source>
+<innerclass access="static " name="java/lang/ClassValue$ClassValueMap" outerName="java/lang/ClassValue" innerName="ClassValueMap">
+</innerclass>
+<innerclass access="static " name="java/lang/ClassValue$Entry" outerName="java/lang/ClassValue" innerName="Entry">
+</innerclass>
+<innerclass access="static " name="java/lang/ClassValue$Version" outerName="java/lang/ClassValue" innerName="Version">
+</innerclass>
+<innerclass access="static " name="java/lang/ClassValue$Identity" outerName="java/lang/ClassValue" innerName="Identity">
+</innerclass>
+<method access="protected " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected abstract " name="computeValue" desc="(Ljava/lang/Class;)Ljava/lang/Object;" signature="(Ljava/lang/Class&lt;*&gt;;)TT;">
+<exceptions>
+</exceptions>
+</method>
+<method access="public " name="get" desc="(Ljava/lang/Class;)Ljava/lang/Object;" signature="(Ljava/lang/Class&lt;*&gt;;)TT;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="remove" desc="(Ljava/lang/Class;)V" signature="(Ljava/lang/Class&lt;*&gt;;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/AbstractValidatingLambdaMetafactory$MethodAnalyzer" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="AbstractValidatingLambdaMetafactory.java">
+</source>
+<innerclass access="" name="java/lang/invoke/AbstractValidatingLambdaMetafactory$MethodAnalyzer" outerName="java/lang/invoke/AbstractValidatingLambdaMetafactory" innerName="MethodAnalyzer">
+</innerclass>
+</class>
+<class access="super abstract " name="java/lang/invoke/AbstractValidatingLambdaMetafactory" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="AbstractValidatingLambdaMetafactory.java">
+</source>
+<innerclass access="" name="java/lang/invoke/AbstractValidatingLambdaMetafactory$MethodAnalyzer" outerName="java/lang/invoke/AbstractValidatingLambdaMetafactory" innerName="MethodAnalyzer">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/BoundMethodHandle$Factory" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="BoundMethodHandle.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$SpeciesData" outerName="java/lang/invoke/BoundMethodHandle" innerName="SpeciesData">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$Factory" outerName="java/lang/invoke/BoundMethodHandle" innerName="Factory">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/BoundMethodHandle$SpeciesData" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="BoundMethodHandle.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$SpeciesData" outerName="java/lang/invoke/BoundMethodHandle" innerName="SpeciesData">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$Factory" outerName="java/lang/invoke/BoundMethodHandle" innerName="Factory">
+</innerclass>
+<method access="public " name="fieldCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="fieldType" desc="(I)C">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/BoundMethodHandle$Species_L" parent="java/lang/invoke/BoundMethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="BoundMethodHandle.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$SpeciesData" outerName="java/lang/invoke/BoundMethodHandle" innerName="SpeciesData">
+</innerclass>
+<innerclass access="private final static " name="java/lang/invoke/BoundMethodHandle$Species_L" outerName="java/lang/invoke/BoundMethodHandle" innerName="Species_L">
+</innerclass>
+<field access="public final static " name="SPECIES_DATA" desc="Ljava/lang/invoke/BoundMethodHandle$SpeciesData;">
+</field>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;Ljava/lang/Object;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="speciesData" desc="()Ljava/lang/invoke/BoundMethodHandle$SpeciesData;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="clone" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="cloneExtendL" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;Ljava/lang/Object;)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="cloneExtendI" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;I)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="cloneExtendJ" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;J)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="cloneExtendF" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;F)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="cloneExtendD" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;D)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super abstract " name="java/lang/invoke/BoundMethodHandle" parent="java/lang/invoke/MethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="BoundMethodHandle.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$Factory" outerName="java/lang/invoke/BoundMethodHandle" innerName="Factory">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$SpeciesData" outerName="java/lang/invoke/BoundMethodHandle" innerName="SpeciesData">
+</innerclass>
+<innerclass access="private final static " name="java/lang/invoke/BoundMethodHandle$Species_L" outerName="java/lang/invoke/BoundMethodHandle" innerName="Species_L">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<method access="protected abstract " name="speciesData" desc="()Ljava/lang/invoke/BoundMethodHandle$SpeciesData;">
+<exceptions>
+</exceptions>
+</method>
+<method access="public final " name="arg" desc="(I)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="argL" desc="(I)Ljava/lang/Object;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="argI" desc="(I)I">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="argF" desc="(I)F">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="argD" desc="(I)D">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="argJ" desc="(I)J">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public abstract " name="clone" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+</method>
+<method access="public abstract " name="cloneExtendL" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;Ljava/lang/Object;)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+</method>
+<method access="public abstract " name="cloneExtendI" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;I)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+</method>
+<method access="public abstract " name="cloneExtendJ" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;J)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+</method>
+<method access="public abstract " name="cloneExtendF" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;F)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+</method>
+<method access="public abstract " name="cloneExtendD" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/LambdaForm;D)Ljava/lang/invoke/BoundMethodHandle;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+</method>
+</class>
+<class access="public super abstract " name="java/lang/invoke/CallSite" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="CallSite.java">
+</source>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<method access="public " name="type" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public abstract " name="getTarget" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+</method>
+<method access="public abstract " name="setTarget" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+</method>
+<method access="public abstract " name="dynamicInvoker" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+</method>
+</class>
+<class access="public super " name="java/lang/invoke/ConstantCallSite" parent="java/lang/invoke/CallSite" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ConstantCallSite.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="getTarget" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="setTarget" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="dynamicInvoker" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super synthetic " name="java/lang/invoke/DirectMethodHandle$1" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="DirectMethodHandle.java">
+</source>
+<outerclass owner="java/lang/invoke/DirectMethodHandle">
+</outerclass>
+<innerclass access="static synthetic " name="java/lang/invoke/DirectMethodHandle$1" outerName="java/lang/invoke/DirectMethodHandle">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/DirectMethodHandle$Accessor" parent="java/lang/invoke/DirectMethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="DirectMethodHandle.java">
+</source>
+<innerclass access="static synthetic " name="java/lang/invoke/DirectMethodHandle$1" outerName="java/lang/invoke/DirectMethodHandle">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$Accessor" outerName="java/lang/invoke/DirectMethodHandle" innerName="Accessor">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/DirectMethodHandle$Constructor" parent="java/lang/invoke/DirectMethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="DirectMethodHandle.java">
+</source>
+<innerclass access="static synthetic " name="java/lang/invoke/DirectMethodHandle$1" outerName="java/lang/invoke/DirectMethodHandle">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$Constructor" outerName="java/lang/invoke/DirectMethodHandle" innerName="Constructor">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/DirectMethodHandle$EnsureInitialized" signature="Ljava/lang/ClassValue&lt;Ljava/lang/ref/WeakReference&lt;Ljava/lang/Thread;&gt;;&gt;;" parent="java/lang/ClassValue" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="DirectMethodHandle.java">
+</source>
+<innerclass access="private static " name="java/lang/invoke/DirectMethodHandle$EnsureInitialized" outerName="java/lang/invoke/DirectMethodHandle" innerName="EnsureInitialized">
+</innerclass>
+<method access="protected " name="computeValue" desc="(Ljava/lang/Class;)Ljava/lang/ref/WeakReference;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/ref/WeakReference&lt;Ljava/lang/Thread;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected bridge synthetic " name="computeValue" desc="(Ljava/lang/Class;)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/DirectMethodHandle$Special" parent="java/lang/invoke/DirectMethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="DirectMethodHandle.java">
+</source>
+<innerclass access="static synthetic " name="java/lang/invoke/DirectMethodHandle$1" outerName="java/lang/invoke/DirectMethodHandle">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$Special" outerName="java/lang/invoke/DirectMethodHandle" innerName="Special">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/DirectMethodHandle$StaticAccessor" parent="java/lang/invoke/DirectMethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="DirectMethodHandle.java">
+</source>
+<innerclass access="static synthetic " name="java/lang/invoke/DirectMethodHandle$1" outerName="java/lang/invoke/DirectMethodHandle">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$StaticAccessor" outerName="java/lang/invoke/DirectMethodHandle" innerName="StaticAccessor">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/DirectMethodHandle" parent="java/lang/invoke/MethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="DirectMethodHandle.java">
+</source>
+<innerclass access="static synthetic " name="java/lang/invoke/DirectMethodHandle$1" outerName="java/lang/invoke/DirectMethodHandle">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$StaticAccessor" outerName="java/lang/invoke/DirectMethodHandle" innerName="StaticAccessor">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$Accessor" outerName="java/lang/invoke/DirectMethodHandle" innerName="Accessor">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$Constructor" outerName="java/lang/invoke/DirectMethodHandle" innerName="Constructor">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/DirectMethodHandle$Special" outerName="java/lang/invoke/DirectMethodHandle" innerName="Special">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/DirectMethodHandle$EnsureInitialized" outerName="java/lang/invoke/DirectMethodHandle" innerName="EnsureInitialized">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+</class>
+<class access="interface abstract annotation " name="java/lang/invoke/DontInline" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/lang/annotation/Annotation">
+</interface>
+</interfaces>
+<source file="DontInline.java">
+</source>
+<annotation visible="true" desc="Ljava/lang/annotation/Target;">
+<annotationValueArray name="value">
+<annotationValueEnum desc="Ljava/lang/annotation/ElementType;" value="METHOD">
+</annotationValueEnum>
+<annotationValueEnum desc="Ljava/lang/annotation/ElementType;" value="CONSTRUCTOR">
+</annotationValueEnum>
+</annotationValueArray>
+</annotation>
+<annotation visible="true" desc="Ljava/lang/annotation/Retention;">
+<annotationValueEnum name="value" desc="Ljava/lang/annotation/RetentionPolicy;" value="RUNTIME">
+</annotationValueEnum>
+</annotation>
+</class>
+<class access="interface abstract annotation " name="java/lang/invoke/ForceInline" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/lang/annotation/Annotation">
+</interface>
+</interfaces>
+<source file="ForceInline.java">
+</source>
+<annotation visible="true" desc="Ljava/lang/annotation/Target;">
+<annotationValueArray name="value">
+<annotationValueEnum desc="Ljava/lang/annotation/ElementType;" value="METHOD">
+</annotationValueEnum>
+<annotationValueEnum desc="Ljava/lang/annotation/ElementType;" value="CONSTRUCTOR">
+</annotationValueEnum>
+</annotationValueArray>
+</annotation>
+<annotation visible="true" desc="Ljava/lang/annotation/Retention;">
+<annotationValueEnum name="value" desc="Ljava/lang/annotation/RetentionPolicy;" value="RUNTIME">
+</annotationValueEnum>
+</annotation>
+</class>
+<class access="super " name="java/lang/invoke/InnerClassLambdaMetafactory$1" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;[Ljava/lang/reflect/Constructor;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="InnerClassLambdaMetafactory.java">
+</source>
+<outerclass owner="java/lang/invoke/InnerClassLambdaMetafactory" name="buildCallSite" desc="()Ljava/lang/invoke/CallSite;">
+</outerclass>
+<innerclass access="" name="java/lang/invoke/InnerClassLambdaMetafactory$1">
+</innerclass>
+<method access="public " name="run" desc="()[Ljava/lang/reflect/Constructor;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/InnerClassLambdaMetafactory$2" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/lang/Void;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="InnerClassLambdaMetafactory.java">
+</source>
+<outerclass owner="java/lang/invoke/InnerClassLambdaMetafactory" name="buildCallSite" desc="()Ljava/lang/invoke/CallSite;">
+</outerclass>
+<innerclass access="" name="java/lang/invoke/InnerClassLambdaMetafactory$2">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/Void;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/InnerClassLambdaMetafactory$3" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/security/ProtectionDomain;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="InnerClassLambdaMetafactory.java">
+</source>
+<outerclass owner="java/lang/invoke/InnerClassLambdaMetafactory" name="spinInnerClass" desc="()Ljava/lang/Class;">
+</outerclass>
+<innerclass access="" name="java/lang/invoke/InnerClassLambdaMetafactory$3">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/security/ProtectionDomain;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/InnerClassLambdaMetafactory$ForwardingMethodGenerator" parent="java/lang/invoke/TypeConvertingMethodAdapter" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="InnerClassLambdaMetafactory.java">
+</source>
+<innerclass access="private " name="java/lang/invoke/InnerClassLambdaMetafactory$ForwardingMethodGenerator" outerName="java/lang/invoke/InnerClassLambdaMetafactory" innerName="ForwardingMethodGenerator">
+</innerclass>
+</class>
+<class access="final super " name="java/lang/invoke/InnerClassLambdaMetafactory" parent="java/lang/invoke/AbstractValidatingLambdaMetafactory" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="InnerClassLambdaMetafactory.java">
+</source>
+<innerclass access="private " name="java/lang/invoke/InnerClassLambdaMetafactory$ForwardingMethodGenerator" outerName="java/lang/invoke/InnerClassLambdaMetafactory" innerName="ForwardingMethodGenerator">
+</innerclass>
+<innerclass access="" name="java/lang/invoke/InnerClassLambdaMetafactory$3">
+</innerclass>
+<innerclass access="" name="java/lang/invoke/InnerClassLambdaMetafactory$2">
+</innerclass>
+<innerclass access="" name="java/lang/invoke/InnerClassLambdaMetafactory$1">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<innerclass access="" name="java/lang/invoke/AbstractValidatingLambdaMetafactory$MethodAnalyzer" outerName="java/lang/invoke/AbstractValidatingLambdaMetafactory" innerName="MethodAnalyzer">
+</innerclass>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;I[Ljava/lang/Class;)V" signature="(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;I[Ljava/lang/Class&lt;*&gt;;)V">
+<exceptions>
+<exception name="java/lang/ReflectiveOperationException">
+</exception>
+<exception name="java/lang/invoke/LambdaConversionException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/InvokeDynamic" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="InvokeDynamic.java">
+</source>
+</class>
+<class access="super " name="java/lang/invoke/InvokeGeneric" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="InvokeGeneric.java">
+</source>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/InvokerBytecodeGenerator$1" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/lang/Void;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="InvokerBytecodeGenerator.java">
+</source>
+<outerclass owner="java/lang/invoke/InvokerBytecodeGenerator" name="maybeDump" desc="(Ljava/lang/String;[B)V">
+</outerclass>
+<innerclass access="static " name="java/lang/invoke/InvokerBytecodeGenerator$1">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/Void;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/InvokerBytecodeGenerator$CpPatch" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="InvokerBytecodeGenerator.java">
+</source>
+<innerclass access="" name="java/lang/invoke/InvokerBytecodeGenerator$CpPatch" outerName="java/lang/invoke/InvokerBytecodeGenerator" innerName="CpPatch">
+</innerclass>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/InvokerBytecodeGenerator" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="InvokerBytecodeGenerator.java">
+</source>
+<innerclass access="" name="java/lang/invoke/InvokerBytecodeGenerator$CpPatch" outerName="java/lang/invoke/InvokerBytecodeGenerator" innerName="CpPatch">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/InvokerBytecodeGenerator$1">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/Invokers" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="Invokers.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$SpeciesData" outerName="java/lang/invoke/BoundMethodHandle" innerName="SpeciesData">
+</innerclass>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="java/lang/invoke/LambdaConversionException" parent="java/lang/Exception" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="LambdaConversionException.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/String;Ljava/lang/Throwable;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Throwable;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/String;Ljava/lang/Throwable;ZZ)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="interface abstract annotation " name="java/lang/invoke/LambdaForm$Compiled" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/lang/annotation/Annotation">
+</interface>
+</interfaces>
+<source file="LambdaForm.java">
+</source>
+<annotation visible="true" desc="Ljava/lang/annotation/Target;">
+<annotationValueArray name="value">
+<annotationValueEnum desc="Ljava/lang/annotation/ElementType;" value="METHOD">
+</annotationValueEnum>
+</annotationValueArray>
+</annotation>
+<annotation visible="true" desc="Ljava/lang/annotation/Retention;">
+<annotationValueEnum name="value" desc="Ljava/lang/annotation/RetentionPolicy;" value="RUNTIME">
+</annotationValueEnum>
+</annotation>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/LambdaForm$Compiled" outerName="java/lang/invoke/LambdaForm" innerName="Compiled">
+</innerclass>
+</class>
+<class access="interface abstract annotation " name="java/lang/invoke/LambdaForm$Hidden" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/lang/annotation/Annotation">
+</interface>
+</interfaces>
+<source file="LambdaForm.java">
+</source>
+<annotation visible="true" desc="Ljava/lang/annotation/Target;">
+<annotationValueArray name="value">
+<annotationValueEnum desc="Ljava/lang/annotation/ElementType;" value="METHOD">
+</annotationValueEnum>
+</annotationValueArray>
+</annotation>
+<annotation visible="true" desc="Ljava/lang/annotation/Retention;">
+<annotationValueEnum name="value" desc="Ljava/lang/annotation/RetentionPolicy;" value="RUNTIME">
+</annotationValueEnum>
+</annotation>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/LambdaForm$Hidden" outerName="java/lang/invoke/LambdaForm" innerName="Hidden">
+</innerclass>
+</class>
+<class access="final super " name="java/lang/invoke/LambdaForm$Name" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="LambdaForm.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="debugString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="exprString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="equals" desc="(Ljava/lang/invoke/LambdaForm$Name;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="equals" desc="(Ljava/lang/Object;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hashCode" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/LambdaForm$NamedFunction" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="LambdaForm.java">
+</source>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/LambdaForm$Hidden" outerName="java/lang/invoke/LambdaForm" innerName="Hidden">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<method access="public " name="equals" desc="(Ljava/lang/Object;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hashCode" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/LambdaForm" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="LambdaForm.java">
+</source>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/LambdaForm$Hidden" outerName="java/lang/invoke/LambdaForm" innerName="Hidden">
+</innerclass>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/LambdaForm$Compiled" outerName="java/lang/invoke/LambdaForm" innerName="Compiled">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$SpeciesData" outerName="java/lang/invoke/BoundMethodHandle" innerName="SpeciesData">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<field access="public final static " name="VOID_RESULT" desc="I" value="-1">
+</field>
+<field access="public final static " name="LAST_RESULT" desc="I" value="-2">
+</field>
+<method access="public " name="prepare" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="basicType" desc="(Ljava/lang/Class;)C" signature="(Ljava/lang/Class&lt;*&gt;;)C">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="basicTypes" desc="(Ljava/util/List;)[C" signature="(Ljava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;)[C">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="basicTypeSignature" desc="(Ljava/lang/invoke/MethodType;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="java/lang/invoke/LambdaMetafactory" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="LambdaMetafactory.java">
+</source>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<field access="public final static " name="FLAG_SERIALIZABLE" desc="I" value="1">
+</field>
+<field access="public final static " name="FLAG_MARKERS" desc="I" value="2">
+</field>
+<method access="public " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="metaFactory" desc="(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;">
+<exceptions>
+<exception name="java/lang/ReflectiveOperationException">
+</exception>
+<exception name="java/lang/invoke/LambdaConversionException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static varargs " name="altMetaFactory" desc="(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;">
+<exceptions>
+<exception name="java/lang/ReflectiveOperationException">
+</exception>
+<exception name="java/lang/invoke/LambdaConversionException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/MagicLambdaImpl" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MagicLambdaImpl.java">
+</source>
+</class>
+<class access="super " name="java/lang/invoke/MemberName$Factory" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MemberName.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<method access="public " name="resolveOrFail" desc="(BLjava/lang/invoke/MemberName;Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/invoke/MemberName;" signature="&lt;NoSuchMemberException:Ljava/lang/ReflectiveOperationException;&gt;(BLjava/lang/invoke/MemberName;Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;TNoSuchMemberException;&gt;;)Ljava/lang/invoke/MemberName;^Ljava/lang/IllegalAccessException;^TNoSuchMemberException;">
+<exceptions>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+<exception name="java/lang/ReflectiveOperationException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="resolveOrNull" desc="(BLjava/lang/invoke/MemberName;Ljava/lang/Class;)Ljava/lang/invoke/MemberName;" signature="(BLjava/lang/invoke/MemberName;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MemberName;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getMethods" desc="(Ljava/lang/Class;ZLjava/lang/Class;)Ljava/util/List;" signature="(Ljava/lang/Class&lt;*&gt;;ZLjava/lang/Class&lt;*&gt;;)Ljava/util/List&lt;Ljava/lang/invoke/MemberName;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getMethods" desc="(Ljava/lang/Class;ZLjava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Class;)Ljava/util/List;" signature="(Ljava/lang/Class&lt;*&gt;;ZLjava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Class&lt;*&gt;;)Ljava/util/List&lt;Ljava/lang/invoke/MemberName;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getConstructors" desc="(Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Ljava/util/List&lt;Ljava/lang/invoke/MemberName;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getFields" desc="(Ljava/lang/Class;ZLjava/lang/Class;)Ljava/util/List;" signature="(Ljava/lang/Class&lt;*&gt;;ZLjava/lang/Class&lt;*&gt;;)Ljava/util/List&lt;Ljava/lang/invoke/MemberName;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getFields" desc="(Ljava/lang/Class;ZLjava/lang/String;Ljava/lang/Class;Ljava/lang/Class;)Ljava/util/List;" signature="(Ljava/lang/Class&lt;*&gt;;ZLjava/lang/String;Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Ljava/util/List&lt;Ljava/lang/invoke/MemberName;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getNestedTypes" desc="(Ljava/lang/Class;ZLjava/lang/Class;)Ljava/util/List;" signature="(Ljava/lang/Class&lt;*&gt;;ZLjava/lang/Class&lt;*&gt;;)Ljava/util/List&lt;Ljava/lang/invoke/MemberName;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/MemberName" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/lang/reflect/Member">
+</interface>
+<interface name="java/lang/Cloneable">
+</interface>
+</interfaces>
+<source file="MemberName.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<method access="public " name="getDeclaringClass" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getClassLoader" desc="()Ljava/lang/ClassLoader;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getName" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getMethodOrFieldType" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getMethodType" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getInvocationType" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getParameterTypes" desc="()[Ljava/lang/Class;" signature="()[Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getReturnType" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getFieldType" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getType" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getSignature" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getModifiers" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getReferenceKind" desc="()B">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isMethodHandleInvoke" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isStatic" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isPublic" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isPrivate" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isProtected" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isFinal" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="canBeStaticallyBound" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isVolatile" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isAbstract" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isNative" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isBridge" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isVarargs" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isSynthetic" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isInvocable" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isFieldOrMethod" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isMethod" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isConstructor" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isField" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isType" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isPackage" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isCallerSensitive" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isAccessibleFrom" desc="(Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/reflect/Method;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/reflect/Method;Z)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asSpecial" desc="()Ljava/lang/invoke/MemberName;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asConstructor" desc="()Ljava/lang/invoke/MemberName;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/reflect/Constructor;)V" signature="(Ljava/lang/reflect/Constructor&lt;*&gt;;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/reflect/Field;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/reflect/Field;Z)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isGetter" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isSetter" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asSetter" desc="()Ljava/lang/invoke/MemberName;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Class;)V" signature="(Ljava/lang/Class&lt;*&gt;;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected " name="clone" desc="()Ljava/lang/invoke/MemberName;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getDefinition" desc="()Ljava/lang/invoke/MemberName;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hashCode" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="equals" desc="(Ljava/lang/Object;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="equals" desc="(Ljava/lang/invoke/MemberName;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;B)V" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/Class&lt;*&gt;;B)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Void;)V" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/Class&lt;*&gt;;Ljava/lang/Void;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/invoke/MethodType;B)V" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/invoke/MethodType;B)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hasReceiverTypeDispatch" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isResolved" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="makeAccessException" desc="(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/IllegalAccessException;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="makeAccessException" desc="()Ljava/lang/ReflectiveOperationException;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected bridge synthetic " name="clone" desc="()Ljava/lang/Object;">
+<exceptions>
+<exception name="java/lang/CloneNotSupportedException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="interface abstract annotation " name="java/lang/invoke/MethodHandle$PolymorphicSignature" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/lang/annotation/Annotation">
+</interface>
+</interfaces>
+<source file="MethodHandle.java">
+</source>
+<annotation visible="true" desc="Ljava/lang/annotation/Target;">
+<annotationValueArray name="value">
+<annotationValueEnum desc="Ljava/lang/annotation/ElementType;" value="METHOD">
+</annotationValueEnum>
+</annotationValueArray>
+</annotation>
+<annotation visible="true" desc="Ljava/lang/annotation/Retention;">
+<annotationValueEnum name="value" desc="Ljava/lang/annotation/RetentionPolicy;" value="RUNTIME">
+</annotationValueEnum>
+</annotation>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/MethodHandle$PolymorphicSignature" outerName="java/lang/invoke/MethodHandle" innerName="PolymorphicSignature">
+</innerclass>
+</class>
+<class access="public super abstract " name="java/lang/invoke/MethodHandle" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandle.java">
+</source>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/MethodHandle$PolymorphicSignature" outerName="java/lang/invoke/MethodHandle" innerName="PolymorphicSignature">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<method access="public " name="type" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public varargs " name="invokeWithArguments" desc="([Ljava/lang/Object;)Ljava/lang/Object;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="invokeWithArguments" desc="(Ljava/util/List;)Ljava/lang/Object;" signature="(Ljava/util/List&lt;*&gt;;)Ljava/lang/Object;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asType" desc="(Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asSpreader" desc="(Ljava/lang/Class;I)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;I)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asCollector" desc="(Ljava/lang/Class;I)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;I)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asVarargsCollector" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isVarargsCollector" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asFixedArity" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="bindTo" desc="(Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/MethodHandleImpl$ArrayAccessor" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<innerclass access="final static " name="java/lang/invoke/MethodHandleImpl$ArrayAccessor" outerName="java/lang/invoke/MethodHandleImpl" innerName="ArrayAccessor">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/MethodHandleImpl$AsVarargsCollector" parent="java/lang/invoke/MethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/MethodHandleImpl$AsVarargsCollector" outerName="java/lang/invoke/MethodHandleImpl" innerName="AsVarargsCollector">
+</innerclass>
+<method access="public " name="isVarargsCollector" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asFixedArity" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="asType" desc="(Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/MethodHandleImpl$BindCaller$1" signature="Ljava/lang/ClassValue&lt;Ljava/lang/invoke/MethodHandle;&gt;;" parent="java/lang/ClassValue" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<outerclass owner="java/lang/invoke/MethodHandleImpl$BindCaller">
+</outerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller" outerName="java/lang/invoke/MethodHandleImpl" innerName="BindCaller">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleImpl$BindCaller$1">
+</innerclass>
+<method access="protected " name="computeValue" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected bridge synthetic " name="computeValue" desc="(Ljava/lang/Class;)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/MethodHandleImpl$BindCaller$2" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/lang/Void;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<outerclass owner="java/lang/invoke/MethodHandleImpl$BindCaller">
+</outerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller" outerName="java/lang/invoke/MethodHandleImpl" innerName="BindCaller">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller$T" outerName="java/lang/invoke/MethodHandleImpl$BindCaller" innerName="T">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleImpl$BindCaller$2">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/Void;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/MethodHandleImpl$BindCaller$T" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller" outerName="java/lang/invoke/MethodHandleImpl" innerName="BindCaller">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller$T" outerName="java/lang/invoke/MethodHandleImpl$BindCaller" innerName="T">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/MethodHandleImpl$BindCaller" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller" outerName="java/lang/invoke/MethodHandleImpl" innerName="BindCaller">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller$T" outerName="java/lang/invoke/MethodHandleImpl$BindCaller" innerName="T">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleImpl$BindCaller$2">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleImpl$BindCaller$1">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/MethodHandleImpl$GuardWithCatch" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<innerclass access="static interface abstract annotation " name="java/lang/invoke/LambdaForm$Hidden" outerName="java/lang/invoke/LambdaForm" innerName="Hidden">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$GuardWithCatch" outerName="java/lang/invoke/MethodHandleImpl" innerName="GuardWithCatch">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+</class>
+<class access="super abstract " name="java/lang/invoke/MethodHandleImpl" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleImpl.java">
+</source>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$BindCaller" outerName="java/lang/invoke/MethodHandleImpl" innerName="BindCaller">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodHandleImpl$GuardWithCatch" outerName="java/lang/invoke/MethodHandleImpl" innerName="GuardWithCatch">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleImpl$AsVarargsCollector" outerName="java/lang/invoke/MethodHandleImpl" innerName="AsVarargsCollector">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/MethodHandleImpl$ArrayAccessor" outerName="java/lang/invoke/MethodHandleImpl" innerName="ArrayAccessor">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/LambdaForm$NamedFunction" outerName="java/lang/invoke/LambdaForm" innerName="NamedFunction">
+</innerclass>
+<innerclass access="final static " name="java/lang/invoke/LambdaForm$Name" outerName="java/lang/invoke/LambdaForm" innerName="Name">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+</class>
+<class access="final super " name="java/lang/invoke/MethodHandleInfo" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleInfo.java">
+</source>
+<field access="public final static " name="REF_getField" desc="I" value="1">
+</field>
+<field access="public final static " name="REF_getStatic" desc="I" value="2">
+</field>
+<field access="public final static " name="REF_putField" desc="I" value="3">
+</field>
+<field access="public final static " name="REF_putStatic" desc="I" value="4">
+</field>
+<field access="public final static " name="REF_invokeVirtual" desc="I" value="5">
+</field>
+<field access="public final static " name="REF_invokeStatic" desc="I" value="6">
+</field>
+<field access="public final static " name="REF_invokeSpecial" desc="I" value="7">
+</field>
+<field access="public final static " name="REF_newInvokeSpecial" desc="I" value="8">
+</field>
+<field access="public final static " name="REF_invokeInterface" desc="I" value="9">
+</field>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getDeclaringClass" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getName" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getMethodType" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getModifiers" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getReferenceKind" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/MethodHandleNatives$Constants" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleNatives.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+</class>
+<class access="super " name="java/lang/invoke/MethodHandleNatives" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleNatives.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+</class>
+<class access="final super " name="java/lang/invoke/MethodHandleProxies$1" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/lang/reflect/InvocationHandler">
+</interface>
+</interfaces>
+<source file="MethodHandleProxies.java">
+</source>
+<outerclass owner="java/lang/invoke/MethodHandleProxies" name="asInterfaceInstance" desc="(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;">
+</outerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleProxies$1">
+</innerclass>
+<method access="public " name="invoke" desc="(Ljava/lang/Object;Ljava/lang/reflect/Method;[Ljava/lang/Object;)Ljava/lang/Object;">
+<exceptions>
+<exception name="java/lang/Throwable">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/MethodHandleProxies$2" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/lang/Object;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="MethodHandleProxies.java">
+</source>
+<outerclass owner="java/lang/invoke/MethodHandleProxies" name="asInterfaceInstance" desc="(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;">
+</outerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleProxies$2">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="java/lang/invoke/MethodHandleProxies" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleProxies.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/MethodHandleProxies$2">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleProxies$1">
+</innerclass>
+<method access="public static " name="asInterfaceInstance" desc="(Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;)Ljava/lang/Object;" signature="&lt;T:Ljava/lang/Object;&gt;(Ljava/lang/Class&lt;TT;&gt;;Ljava/lang/invoke/MethodHandle;)TT;">
+<exceptions>
+</exceptions>
+<code>
+<annotation visible="true" desc="Lsun/reflect/CallerSensitive;">
+</annotation>
+</code>
+</method>
+<method access="public static " name="isWrapperInstance" desc="(Ljava/lang/Object;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="wrapperInstanceTarget" desc="(Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="wrapperInstanceType" desc="(Ljava/lang/Object;)Ljava/lang/Class;" signature="(Ljava/lang/Object;)Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/MethodHandleStatics$1" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/lang/Void;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="MethodHandleStatics.java">
+</source>
+<outerclass owner="java/lang/invoke/MethodHandleStatics">
+</outerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleStatics$1">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/Void;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/MethodHandleStatics" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandleStatics.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/MethodHandleStatics$1">
+</innerclass>
+</class>
+<class access="super synthetic " name="java/lang/invoke/MethodHandles$1" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandles.java">
+</source>
+<outerclass owner="java/lang/invoke/MethodHandles">
+</outerclass>
+<innerclass access="static synthetic " name="java/lang/invoke/MethodHandles$1" outerName="java/lang/invoke/MethodHandles">
+</innerclass>
+</class>
+<class access="public final super " name="java/lang/invoke/MethodHandles$Lookup" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandles.java">
+</source>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MethodHandleNatives$Constants" outerName="java/lang/invoke/MethodHandleNatives" innerName="Constants">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<field access="public final static " name="PUBLIC" desc="I" value="1">
+</field>
+<field access="public final static " name="PRIVATE" desc="I" value="2">
+</field>
+<field access="public final static " name="PROTECTED" desc="I" value="4">
+</field>
+<field access="public final static " name="PACKAGE" desc="I" value="8">
+</field>
+<method access="public " name="lookupClass" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="lookupModes" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="in" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandles$Lookup;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandles$Lookup;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findStatic" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchMethodException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findVirtual" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchMethodException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findConstructor" desc="(Ljava/lang/Class;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchMethodException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findSpecial" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchMethodException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findGetter" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchFieldException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findSetter" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchFieldException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findStaticGetter" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchFieldException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="findStaticSetter" desc="(Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/String;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchFieldException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="bind" desc="(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/NoSuchMethodException">
+</exception>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="unreflect" desc="(Ljava/lang/reflect/Method;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="unreflectSpecial" desc="(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/reflect/Method;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="unreflectConstructor" desc="(Ljava/lang/reflect/Constructor;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="unreflectGetter" desc="(Ljava/lang/reflect/Field;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="unreflectSetter" desc="(Ljava/lang/reflect/Field;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/IllegalAccessException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="java/lang/invoke/MethodHandles" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodHandles.java">
+</source>
+<innerclass access="static synthetic " name="java/lang/invoke/MethodHandles$1" outerName="java/lang/invoke/MethodHandles">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<innerclass access="static " name="java/lang/invoke/MemberName$Factory" outerName="java/lang/invoke/MemberName" innerName="Factory">
+</innerclass>
+<method access="public static " name="lookup" desc="()Ljava/lang/invoke/MethodHandles$Lookup;">
+<exceptions>
+</exceptions>
+<code>
+<annotation visible="true" desc="Lsun/reflect/CallerSensitive;">
+</annotation>
+</code>
+</method>
+<method access="public static " name="publicLookup" desc="()Ljava/lang/invoke/MethodHandles$Lookup;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="arrayElementGetter" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/IllegalArgumentException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="arrayElementSetter" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+<exception name="java/lang/IllegalArgumentException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="spreadInvoker" desc="(Ljava/lang/invoke/MethodType;I)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="exactInvoker" desc="(Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="invoker" desc="(Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="explicitCastArguments" desc="(Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static varargs " name="permuteArguments" desc="(Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;[I)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="constant" desc="(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="identity" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static varargs " name="insertArguments" desc="(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Object;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="dropArguments" desc="(Ljava/lang/invoke/MethodHandle;ILjava/util/List;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/invoke/MethodHandle;ILjava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static varargs " name="dropArguments" desc="(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static varargs " name="filterArguments" desc="(Ljava/lang/invoke/MethodHandle;I[Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="filterReturnValue" desc="(Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="foldArguments" desc="(Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="guardWithTest" desc="(Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="catchException" desc="(Ljava/lang/invoke/MethodHandle;Ljava/lang/Class;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/invoke/MethodHandle;Ljava/lang/Class&lt;+Ljava/lang/Throwable;&gt;;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="throwException" desc="(Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;+Ljava/lang/Throwable;&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry" signature="&lt;T:Ljava/lang/Object;&gt;Ljava/lang/ref/WeakReference&lt;TT;&gt;;" parent="java/lang/ref/WeakReference" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodType.java">
+</source>
+<innerclass access="private static " name="java/lang/invoke/MethodType$ConcurrentWeakInternSet" outerName="java/lang/invoke/MethodType" innerName="ConcurrentWeakInternSet">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry" outerName="java/lang/invoke/MethodType$ConcurrentWeakInternSet" innerName="WeakEntry">
+</innerclass>
+<field access="public final " name="hashcode" desc="I">
+</field>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V" signature="(TT;Ljava/lang/ref/ReferenceQueue&lt;TT;&gt;;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Object;)V" signature="(TT;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="equals" desc="(Ljava/lang/Object;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hashCode" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/MethodType$ConcurrentWeakInternSet" signature="&lt;T:Ljava/lang/Object;&gt;Ljava/lang/Object;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodType.java">
+</source>
+<innerclass access="private static " name="java/lang/invoke/MethodType$ConcurrentWeakInternSet" outerName="java/lang/invoke/MethodType" innerName="ConcurrentWeakInternSet">
+</innerclass>
+<innerclass access="private static " name="java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry" outerName="java/lang/invoke/MethodType$ConcurrentWeakInternSet" innerName="WeakEntry">
+</innerclass>
+<method access="public " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="get" desc="(Ljava/lang/Object;)Ljava/lang/Object;" signature="(TT;)TT;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="add" desc="(Ljava/lang/Object;)Ljava/lang/Object;" signature="(TT;)TT;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public final super " name="java/lang/invoke/MethodType" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/io/Serializable">
+</interface>
+</interfaces>
+<source file="MethodType.java">
+</source>
+<innerclass access="private static " name="java/lang/invoke/MethodType$ConcurrentWeakInternSet" outerName="java/lang/invoke/MethodType" innerName="ConcurrentWeakInternSet">
+</innerclass>
+<method access="public static " name="methodType" desc="(Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="(Ljava/lang/Class&lt;*&gt;;[Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="methodType" desc="(Ljava/lang/Class;Ljava/util/List;)Ljava/lang/invoke/MethodType;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static varargs " name="methodType" desc="(Ljava/lang/Class;Ljava/lang/Class;[Ljava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;[Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="methodType" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="methodType" desc="(Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="methodType" desc="(Ljava/lang/Class;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodType;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="genericMethodType" desc="(IZ)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="genericMethodType" desc="(I)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="changeParameterType" desc="(ILjava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="(ILjava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public varargs " name="insertParameterTypes" desc="(I[Ljava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="(I[Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public varargs " name="appendParameterTypes" desc="([Ljava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="([Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="insertParameterTypes" desc="(ILjava/util/List;)Ljava/lang/invoke/MethodType;" signature="(ILjava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="appendParameterTypes" desc="(Ljava/util/List;)Ljava/lang/invoke/MethodType;" signature="(Ljava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="dropParameterTypes" desc="(II)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="changeReturnType" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodType;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hasPrimitives" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hasWrappers" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="erase" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="generic" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="wrap" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="unwrap" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parameterType" desc="(I)Ljava/lang/Class;" signature="(I)Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parameterCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="returnType" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parameterList" desc="()Ljava/util/List;" signature="()Ljava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parameterArray" desc="()[Ljava/lang/Class;" signature="()[Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="equals" desc="(Ljava/lang/Object;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hashCode" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="fromMethodDescriptorString" desc="(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/lang/invoke/MethodType;">
+<exceptions>
+<exception name="java/lang/IllegalArgumentException">
+</exception>
+<exception name="java/lang/TypeNotPresentException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toMethodDescriptorString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/MethodTypeForm" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MethodTypeForm.java">
+</source>
+<field access="public final static " name="NO_CHANGE" desc="I" value="0">
+</field>
+<field access="public final static " name="ERASE" desc="I" value="1">
+</field>
+<field access="public final static " name="WRAP" desc="I" value="2">
+</field>
+<field access="public final static " name="UNWRAP" desc="I" value="3">
+</field>
+<field access="public final static " name="INTS" desc="I" value="4">
+</field>
+<field access="public final static " name="LONGS" desc="I" value="5">
+</field>
+<field access="public final static " name="RAW_RETURN" desc="I" value="6">
+</field>
+<method access="public " name="erasedType" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="basicType" desc="()Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="cachedLambdaForm" desc="(I)Ljava/lang/invoke/LambdaForm;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="setCachedLambdaForm" desc="(ILjava/lang/invoke/LambdaForm;)Ljava/lang/invoke/LambdaForm;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="basicInvoker" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodType;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parameterCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parameterSlotCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="returnCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="returnSlotCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="primitiveParameterCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="longPrimitiveParameterCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="primitiveReturnCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="longPrimitiveReturnCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hasPrimitives" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hasNonVoidPrimitives" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hasLongPrimitives" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parameterToArgSlot" desc="(I)I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="argSlotToParameter" desc="(I)I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="canonicalize" desc="(Ljava/lang/invoke/MethodType;II)Ljava/lang/invoke/MethodType;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="java/lang/invoke/MutableCallSite" parent="java/lang/invoke/CallSite" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="MutableCallSite.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodType;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="getTarget" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="setTarget" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="dynamicInvoker" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="syncAll" desc="([Ljava/lang/invoke/MutableCallSite;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/SerializedLambda$1" signature="Ljava/lang/Object;Ljava/security/PrivilegedExceptionAction&lt;Ljava/lang/reflect/Method;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedExceptionAction">
+</interface>
+</interfaces>
+<source file="SerializedLambda.java">
+</source>
+<outerclass owner="java/lang/invoke/SerializedLambda" name="readResolve" desc="()Ljava/lang/Object;">
+</outerclass>
+<innerclass access="" name="java/lang/invoke/SerializedLambda$1">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/reflect/Method;">
+<exceptions>
+<exception name="java/lang/Exception">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+<exception name="java/lang/Exception">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public final super " name="java/lang/invoke/SerializedLambda" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/io/Serializable">
+</interface>
+</interfaces>
+<source file="SerializedLambda.java">
+</source>
+<innerclass access="" name="java/lang/invoke/SerializedLambda$1">
+</innerclass>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Class;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V" signature="(Ljava/lang/Class&lt;*&gt;;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getCapturingClass" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getFunctionalInterfaceClass" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getFunctionalInterfaceMethodName" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getFunctionalInterfaceMethodSignature" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getFunctionalInterfaceMethodKind" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getImplClass" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getImplMethodName" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getImplMethodSignature" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getImplMethodKind" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="getInstantiatedMethodType" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getCapturedArgCount" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getCapturedArg" desc="(I)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="java/lang/invoke/SimpleMethodHandle" parent="java/lang/invoke/MethodHandle" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="SimpleMethodHandle.java">
+</source>
+<innerclass access="static " name="java/lang/invoke/BoundMethodHandle$SpeciesData" outerName="java/lang/invoke/BoundMethodHandle" innerName="SpeciesData">
+</innerclass>
+</class>
+<class access="public super " name="java/lang/invoke/SwitchPoint" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="SwitchPoint.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="hasBeenInvalidated" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="guardWithTest" desc="(Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="invalidateAll" desc="([Ljava/lang/invoke/SwitchPoint;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="java/lang/invoke/TypeConvertingMethodAdapter" parent="jdk/internal/org/objectweb/asm/MethodVisitor" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="TypeConvertingMethodAdapter.java">
+</source>
+</class>
+<class access="public super " name="java/lang/invoke/VolatileCallSite" parent="java/lang/invoke/CallSite" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="VolatileCallSite.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodType;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="getTarget" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="setTarget" desc="(Ljava/lang/invoke/MethodHandle;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public final " name="dynamicInvoker" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="java/lang/invoke/WrongMethodTypeException" parent="java/lang/RuntimeException" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="WrongMethodTypeException.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public interface abstract " name="sun/invoke/WrapperInstance" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="WrapperInstance.java">
+</source>
+<method access="public abstract " name="getWrapperInstanceTarget" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+</method>
+<method access="public abstract " name="getWrapperInstanceType" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+</method>
+</class>
+<class access="public super " name="sun/invoke/anon/AnonymousClassLoader" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="AnonymousClassLoader.java">
+</source>
+<method access="public static " name="make" desc="(Lsun/misc/Unsafe;Ljava/lang/Class;)Lsun/invoke/anon/AnonymousClassLoader;" signature="(Lsun/misc/Unsafe;Ljava/lang/Class&lt;*&gt;;)Lsun/invoke/anon/AnonymousClassLoader;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="loadClass" desc="([B)Ljava/lang/Class;" signature="([B)Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="loadClass" desc="(Lsun/invoke/anon/ConstantPoolPatch;)Ljava/lang/Class;" signature="(Lsun/invoke/anon/ConstantPoolPatch;)Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="readClassFile" desc="(Ljava/lang/Class;)[B" signature="(Ljava/lang/Class&lt;*&gt;;)[B">
+<exceptions>
+<exception name="java/io/IOException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/anon/ConstantPoolParser" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ConstantPoolParser.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="([B)V">
+<exceptions>
+<exception name="sun/invoke/anon/InvalidConstantPoolFormatException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Class;)V" signature="(Ljava/lang/Class&lt;*&gt;;)V">
+<exceptions>
+<exception name="java/io/IOException">
+</exception>
+<exception name="sun/invoke/anon/InvalidConstantPoolFormatException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="createPatch" desc="()Lsun/invoke/anon/ConstantPoolPatch;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getTag" desc="(I)B">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getLength" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getStartOffset" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getEndOffset" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getThisClassIndex" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getTailLength" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="writeHead" desc="(Ljava/io/OutputStream;)V">
+<exceptions>
+<exception name="java/io/IOException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="writeTail" desc="(Ljava/io/OutputStream;)V">
+<exceptions>
+<exception name="java/io/IOException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="parse" desc="(Lsun/invoke/anon/ConstantPoolVisitor;)V">
+<exceptions>
+<exception name="sun/invoke/anon/InvalidConstantPoolFormatException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="sun/invoke/anon/ConstantPoolPatch$1" parent="sun/invoke/anon/ConstantPoolVisitor" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ConstantPoolPatch.java">
+</source>
+<outerclass owner="sun/invoke/anon/ConstantPoolPatch" name="putPatches" desc="(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Z)V">
+</outerclass>
+<innerclass access="" name="sun/invoke/anon/ConstantPoolPatch$1">
+</innerclass>
+<method access="public " name="visitUTF8" desc="(IBLjava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitConstantValue" desc="(IBLjava/lang/Object;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitConstantString" desc="(IBLjava/lang/String;I)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super " name="sun/invoke/anon/ConstantPoolPatch$2" parent="sun/invoke/anon/ConstantPoolVisitor" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ConstantPoolPatch.java">
+</source>
+<outerclass owner="sun/invoke/anon/ConstantPoolPatch" name="getOriginalCP" desc="(III)[Ljava/lang/Object;">
+</outerclass>
+<innerclass access="" name="sun/invoke/anon/ConstantPoolPatch$2">
+</innerclass>
+<method access="public " name="visitUTF8" desc="(IBLjava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitConstantValue" desc="(IBLjava/lang/Object;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitConstantString" desc="(IBLjava/lang/String;I)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitMemberRef" desc="(IBLjava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitDescriptor" desc="(IBLjava/lang/String;Ljava/lang/String;II)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/anon/ConstantPoolPatch" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ConstantPoolPatch.java">
+</source>
+<innerclass access="" name="sun/invoke/anon/ConstantPoolPatch$2">
+</innerclass>
+<innerclass access="" name="sun/invoke/anon/ConstantPoolPatch$1">
+</innerclass>
+<method access="public " name="&lt;init&gt;" desc="([B)V">
+<exceptions>
+<exception name="sun/invoke/anon/InvalidConstantPoolFormatException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Class;)V" signature="(Ljava/lang/Class&lt;*&gt;;)V">
+<exceptions>
+<exception name="java/io/IOException">
+</exception>
+<exception name="sun/invoke/anon/InvalidConstantPoolFormatException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Lsun/invoke/anon/ConstantPoolPatch;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getParser" desc="()Lsun/invoke/anon/ConstantPoolParser;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getTag" desc="(I)B">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getPatch" desc="(I)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="clear" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="clear" desc="(I)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getPatches" desc="()[Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="getOriginalCP" desc="()[Ljava/lang/Object;">
+<exceptions>
+<exception name="sun/invoke/anon/InvalidConstantPoolFormatException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="putPatches" desc="(Ljava/util/Map;Ljava/util/Map;Ljava/util/Map;Z)V" signature="(Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/String;&gt;;Ljava/util/Map&lt;Ljava/lang/String;Ljava/lang/Object;&gt;;Ljava/util/Map&lt;Ljava/lang/Object;Ljava/lang/Object;&gt;;Z)V">
+<exceptions>
+<exception name="sun/invoke/anon/InvalidConstantPoolFormatException">
+</exception>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="putUTF8" desc="(ILjava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="putConstantValue" desc="(ILjava/lang/Object;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="putConstantValue" desc="(IBLjava/lang/Object;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="putDescriptor" desc="(ILjava/lang/String;Ljava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="putMemberRef" desc="(IBLjava/lang/String;Ljava/lang/String;Ljava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="toString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/anon/ConstantPoolVisitor" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ConstantPoolVisitor.java">
+</source>
+<field access="public final static " name="CONSTANT_None" desc="B" value="0">
+</field>
+<field access="public final static " name="CONSTANT_Utf8" desc="B" value="1">
+</field>
+<field access="public final static " name="CONSTANT_Integer" desc="B" value="3">
+</field>
+<field access="public final static " name="CONSTANT_Float" desc="B" value="4">
+</field>
+<field access="public final static " name="CONSTANT_Long" desc="B" value="5">
+</field>
+<field access="public final static " name="CONSTANT_Double" desc="B" value="6">
+</field>
+<field access="public final static " name="CONSTANT_Class" desc="B" value="7">
+</field>
+<field access="public final static " name="CONSTANT_String" desc="B" value="8">
+</field>
+<field access="public final static " name="CONSTANT_Fieldref" desc="B" value="9">
+</field>
+<field access="public final static " name="CONSTANT_Methodref" desc="B" value="10">
+</field>
+<field access="public final static " name="CONSTANT_InterfaceMethodref" desc="B" value="11">
+</field>
+<field access="public final static " name="CONSTANT_NameAndType" desc="B" value="12">
+</field>
+<method access="public " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitUTF8" desc="(IBLjava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitConstantValue" desc="(IBLjava/lang/Object;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitConstantString" desc="(IBLjava/lang/String;I)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitDescriptor" desc="(IBLjava/lang/String;Ljava/lang/String;II)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="visitMemberRef" desc="(IBLjava/lang/String;Ljava/lang/String;Ljava/lang/String;II)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="tagName" desc="(B)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/anon/InvalidConstantPoolFormatException" parent="java/lang/Exception" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="InvalidConstantPoolFormatException.java">
+</source>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/String;Ljava/lang/Throwable;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/String;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="&lt;init&gt;" desc="(Ljava/lang/Throwable;)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/empty/Empty" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="Empty.java">
+</source>
+</class>
+<class access="public super " name="sun/invoke/util/BytecodeDescriptor" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="BytecodeDescriptor.java">
+</source>
+<method access="public static " name="parseMethod" desc="(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/util/List;" signature="(Ljava/lang/String;Ljava/lang/ClassLoader;)Ljava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unparse" desc="(Ljava/lang/Class;)Ljava/lang/String;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unparse" desc="(Ljava/lang/invoke/MethodType;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unparse" desc="(Ljava/lang/Object;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unparseMethod" desc="(Ljava/lang/Class;Ljava/util/List;)Ljava/lang/String;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/util/List&lt;Ljava/lang/Class&lt;*&gt;;&gt;;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/util/BytecodeName" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="BytecodeName.java">
+</source>
+<method access="public static " name="toBytecodeName" desc="(Ljava/lang/String;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="toSourceName" desc="(Ljava/lang/String;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="parseBytecodeName" desc="(Ljava/lang/String;)[Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unparseBytecodeName" desc="([Ljava/lang/Object;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="toDisplayName" desc="(Ljava/lang/String;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isSafeBytecodeName" desc="(Ljava/lang/String;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isSafeBytecodeChar" desc="(C)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="sun/invoke/util/ValueConversions$1" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/lang/Void;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="ValueConversions.java">
+</source>
+<outerclass owner="sun/invoke/util/ValueConversions">
+</outerclass>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$1">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/Void;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="sun/invoke/util/ValueConversions$2" signature="Ljava/lang/Object;Ljava/security/PrivilegedAction&lt;Ljava/lang/Void;&gt;;" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+<interface name="java/security/PrivilegedAction">
+</interface>
+</interfaces>
+<source file="ValueConversions.java">
+</source>
+<outerclass owner="sun/invoke/util/ValueConversions">
+</outerclass>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$2">
+</innerclass>
+<method access="public " name="run" desc="()Ljava/lang/Void;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public bridge synthetic " name="run" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="final super " name="sun/invoke/util/ValueConversions$3" signature="Ljava/lang/ClassValue&lt;[Ljava/lang/invoke/MethodHandle;&gt;;" parent="java/lang/ClassValue" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ValueConversions.java">
+</source>
+<outerclass owner="sun/invoke/util/ValueConversions">
+</outerclass>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$3">
+</innerclass>
+<method access="protected " name="computeValue" desc="(Ljava/lang/Class;)[Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)[Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="protected bridge synthetic " name="computeValue" desc="(Ljava/lang/Class;)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super synthetic " name="sun/invoke/util/ValueConversions$4" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ValueConversions.java">
+</source>
+<outerclass owner="sun/invoke/util/ValueConversions">
+</outerclass>
+<innerclass access="static synthetic " name="sun/invoke/util/ValueConversions$4" outerName="sun/invoke/util/ValueConversions">
+</innerclass>
+</class>
+<class access="super " name="sun/invoke/util/ValueConversions$LazyStatics" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ValueConversions.java">
+</source>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$LazyStatics" outerName="sun/invoke/util/ValueConversions" innerName="LazyStatics">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+</class>
+<class access="public super " name="sun/invoke/util/ValueConversions" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="ValueConversions.java">
+</source>
+<innerclass access="static synthetic " name="sun/invoke/util/ValueConversions$4" outerName="sun/invoke/util/ValueConversions">
+</innerclass>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$LazyStatics" outerName="sun/invoke/util/ValueConversions" innerName="LazyStatics">
+</innerclass>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$3">
+</innerclass>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$2">
+</innerclass>
+<innerclass access="static " name="sun/invoke/util/ValueConversions$1">
+</innerclass>
+<innerclass access="public final static " name="java/lang/invoke/MethodHandles$Lookup" outerName="java/lang/invoke/MethodHandles" innerName="Lookup">
+</innerclass>
+<method access="public " name="&lt;init&gt;" desc="()V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unboxCast" desc="(Lsun/invoke/util/Wrapper;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unbox" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="unboxCast" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="primitiveConversion" desc="(Lsun/invoke/util/Wrapper;Ljava/lang/Object;Z)Ljava/lang/Number;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="widenSubword" desc="(Ljava/lang/Object;)I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="box" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="box" desc="(Lsun/invoke/util/Wrapper;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="zeroConstantFunction" desc="(Lsun/invoke/util/Wrapper;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="cast" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="identity" desc="()Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="identity" desc="(Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="identity" desc="(Lsun/invoke/util/Wrapper;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="convertPrimitive" desc="(Lsun/invoke/util/Wrapper;Lsun/invoke/util/Wrapper;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="convertPrimitive" desc="(Ljava/lang/Class;Ljava/lang/Class;)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="convertArrayElements" desc="(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Object;)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="varargsArray" desc="(I)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="varargsArray" desc="(Ljava/lang/Class;I)Ljava/lang/invoke/MethodHandle;" signature="(Ljava/lang/Class&lt;*&gt;;I)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="varargsList" desc="(I)Ljava/lang/invoke/MethodHandle;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/util/VerifyAccess" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="VerifyAccess.java">
+</source>
+<method access="public static " name="isMemberAccessible" desc="(Ljava/lang/Class;Ljava/lang/Class;ILjava/lang/Class;I)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;ILjava/lang/Class&lt;*&gt;;I)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isClassAccessible" desc="(Ljava/lang/Class;Ljava/lang/Class;I)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;I)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isTypeVisible" desc="(Ljava/lang/Class;Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isTypeVisible" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/Class;)Z" signature="(Ljava/lang/invoke/MethodType;Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isSamePackage" desc="(Ljava/lang/Class;Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="getPackageName" desc="(Ljava/lang/Class;)Ljava/lang/String;" signature="(Ljava/lang/Class&lt;*&gt;;)Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isSamePackageMember" desc="(Ljava/lang/Class;Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="classLoaderIsAncestor" desc="(Ljava/lang/Class;Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="public super " name="sun/invoke/util/VerifyType" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="VerifyType.java">
+</source>
+<method access="public static " name="isNullConversion" desc="(Ljava/lang/Class;Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isNullReferenceConversion" desc="(Ljava/lang/Class;Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isNullType" desc="(Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isNullConversion" desc="(Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodType;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="canPassUnchecked" desc="(Ljava/lang/Class;Ljava/lang/Class;)I" signature="(Ljava/lang/Class&lt;*&gt;;Ljava/lang/Class&lt;*&gt;;)I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isSpreadArgType" desc="(Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="spreadArgElementType" desc="(Ljava/lang/Class;I)Ljava/lang/Class;" signature="(Ljava/lang/Class&lt;*&gt;;I)Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+<class access="super abstract " name="sun/invoke/util/Wrapper$Format" parent="java/lang/Object" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="Wrapper.java">
+</source>
+<innerclass access="private static abstract " name="sun/invoke/util/Wrapper$Format" outerName="sun/invoke/util/Wrapper" innerName="Format">
+</innerclass>
+</class>
+<class access="public final super enum " name="sun/invoke/util/Wrapper" signature="Ljava/lang/Enum&lt;Lsun/invoke/util/Wrapper;&gt;;" parent="java/lang/Enum" major="49" minor="0">
+<interfaces>
+</interfaces>
+<source file="Wrapper.java">
+</source>
+<innerclass access="private static abstract " name="sun/invoke/util/Wrapper$Format" outerName="sun/invoke/util/Wrapper" innerName="Format">
+</innerclass>
+<field access="public final static enum " name="BOOLEAN" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="BYTE" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="SHORT" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="CHAR" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="INT" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="LONG" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="FLOAT" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="DOUBLE" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="OBJECT" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<field access="public final static enum " name="VOID" desc="Lsun/invoke/util/Wrapper;">
+</field>
+<method access="public static " name="values" desc="()[Lsun/invoke/util/Wrapper;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="valueOf" desc="(Ljava/lang/String;)Lsun/invoke/util/Wrapper;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="detailString" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="bitWidth" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="stackSlots" desc="()I">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isSingleWord" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isDoubleWord" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isNumeric" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isIntegral" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isSubwordOrInt" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isSigned" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isUnsigned" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isFloating" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isOther" desc="()Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="isConvertibleFrom" desc="(Lsun/invoke/util/Wrapper;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="zero" desc="()Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="zero" desc="(Ljava/lang/Class;)Ljava/lang/Object;" signature="&lt;T:Ljava/lang/Object;&gt;(Ljava/lang/Class&lt;TT;&gt;;)TT;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="forPrimitiveType" desc="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" signature="(Ljava/lang/Class&lt;*&gt;;)Lsun/invoke/util/Wrapper;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="forWrapperType" desc="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" signature="(Ljava/lang/Class&lt;*&gt;;)Lsun/invoke/util/Wrapper;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="forBasicType" desc="(C)Lsun/invoke/util/Wrapper;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="forBasicType" desc="(Ljava/lang/Class;)Lsun/invoke/util/Wrapper;" signature="(Ljava/lang/Class&lt;*&gt;;)Lsun/invoke/util/Wrapper;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="primitiveType" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="wrapperType" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="wrapperType" desc="(Ljava/lang/Class;)Ljava/lang/Class;" signature="&lt;T:Ljava/lang/Object;&gt;(Ljava/lang/Class&lt;TT;&gt;;)Ljava/lang/Class&lt;TT;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="asWrapperType" desc="(Ljava/lang/Class;)Ljava/lang/Class;" signature="&lt;T:Ljava/lang/Object;&gt;(Ljava/lang/Class&lt;TT;&gt;;)Ljava/lang/Class&lt;TT;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="asPrimitiveType" desc="(Ljava/lang/Class;)Ljava/lang/Class;" signature="&lt;T:Ljava/lang/Object;&gt;(Ljava/lang/Class&lt;TT;&gt;;)Ljava/lang/Class&lt;TT;&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isWrapperType" desc="(Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="isPrimitiveType" desc="(Ljava/lang/Class;)Z" signature="(Ljava/lang/Class&lt;*&gt;;)Z">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public static " name="basicTypeChar" desc="(Ljava/lang/Class;)C" signature="(Ljava/lang/Class&lt;*&gt;;)C">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="basicTypeChar" desc="()C">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="wrapperSimpleName" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="primitiveSimpleName" desc="()Ljava/lang/String;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="cast" desc="(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;" signature="&lt;T:Ljava/lang/Object;&gt;(Ljava/lang/Object;Ljava/lang/Class&lt;TT;&gt;;)TT;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="convert" desc="(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;" signature="&lt;T:Ljava/lang/Object;&gt;(Ljava/lang/Object;Ljava/lang/Class&lt;TT;&gt;;)TT;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="wrap" desc="(Ljava/lang/Object;)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="wrap" desc="(I)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="makeArray" desc="(I)Ljava/lang/Object;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="arrayType" desc="()Ljava/lang/Class;" signature="()Ljava/lang/Class&lt;*&gt;;">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="copyArrayUnboxing" desc="([Ljava/lang/Object;ILjava/lang/Object;II)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+<method access="public " name="copyArrayBoxing" desc="(Ljava/lang/Object;I[Ljava/lang/Object;II)V">
+<exceptions>
+</exceptions>
+<code>
+</code>
+</method>
+</class>
+</jsr292-mock>
