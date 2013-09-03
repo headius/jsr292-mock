@@ -1,4 +1,4 @@
-package com.github.headius.jsr292mock;
+package com.headius.jsr292mock;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
