@@ -11,10 +11,6 @@
   
   <repositories>
     <repository>
-      <id>localrepo</id>
-      <url>file:${jruby.basedir}/localrepo</url>
-    </repository>
-    <repository>
       <id>sonatype</id>
       <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
       <releases>
@@ -64,7 +60,7 @@
     <dependency>
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm-debug-all</artifactId>
-      <version>5.0_ALPHA</version>
+      <version>5.0_BETA</version>
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
